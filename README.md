@@ -9,6 +9,10 @@
 git clone -b develop https://github.com/NikolayChedurov2011/SDL3Vulkan_Engine_prot.git --recurse-submodules
 ```
 
+## CMake:
+To add this submodule to CMake build, add to your CMakeLists
+`add_subdirectory(SDL3Vulkan_Engine_prot)` and `target_link_libraries(${PROJECT_NAME} PRIVATE SDL3Vulkan_Engine_prot)`
+
 ## How to use:
 
 To start, implement own Game class inherited from Game_Base and include the Game_Base.h. This allow to use the game loop that controlled by tick based on the target FPS.
