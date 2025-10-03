@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.31.5)
-project(EngineCore)
+project(SDL3Vulkan_Engine_prot)
 
 set(SDL_TEST OFF)
 
